@@ -1,0 +1,35 @@
+# Kickstarting with Excel
+
+## Overview of Project
+
+The purpose of this project is to visualize theater campaign outcomes based on their launch dates and their funding goals using data from the "Kickstarter" spreadsheet.
+
+## Analysis and Challenges
+
+### Analysis of Outcomes Based on Launch Date
+
+For the "Outcomes based on Launch Date" analysis I created a pivot table from the data found on the "kickstarter" tab (all campaign data).  This table included the total number of successful, failed, and canceled theater (only) campaigns during each of the 12 months of a year. From the table, I created a line chart to visualize how the numbers changed throughout the year.  
+[Outcomes Based on Launch Date Screenshot] (https://github.com/katief01/kickstarter-analysis/blob/main/Outcomes_Based_On_Launch_Date.png)
+
+### Analysis of Outcomes Based on Goals
+
+For the "Outcomes Based on Goals" analysis I used the "Countifs" function to create a new table from the data found on the "kickstarter" tab which contains the total number and percentage of successful, failed, and canceled theater campaigns in various goal ranges which start at <$1,000 and go up to >$50,000. 
+[Outcomes Based On Goals Screenshot] (https://github.com/katief01/kickstarter-analysis/blob/main/Outcomes_Based_On_Goals.png)   
+
+### Challenges and Difficulties Encountered
+
+I encountered difficulty when attempting to create a line graph for the "Outcomes Based on Goals" line chart.  My difficulty was in creating the graph with column A as the "x-axis" and only certain columns on the y-axis.  I found a YouTube video which helped me navigate adding only specific columns to the y-axis of the line graph.
+
+## Results
+
+- What are two conclusions you can draw about the Outcomes based on Launch Date? 
+My conclusions are that late spring and summer months are incredibly successful for launching theater campains.  Also, the failed campaigns followed a similar trend throughout the year with more failed campaigns in summer and fewer in winter, on a smaller scale.
+
+- What can you conclude about the Outcomes based on Goals?
+ The Outcomes based on goals showed 4 goal ranges that stood out with a significantly higher percentage of successful campaigns compaired to failures, including <$1000, $1000-$4999, $35000-$39999, and $40000-44999.  The biggest differences were in the <1000 range and >$45000 which may indicate that a low-end, affordable campaign or a high end, exclusive campaign is most successful.
+
+- What are some limitations of this dataset?
+It would be helpful to see how the goal ranges varied and the launch dates are connected.  Did the jump in successful theater campaigns during the summer months also have one of the most successful goal ranges (<$1000 or >45,000)?
+
+- What are some other possible tables and/or graphs that we could create?
+I would like to see a table/graph that includes the goal ranges as well as the launch dates all in one location to see if there is a correlation between the two data sets.
